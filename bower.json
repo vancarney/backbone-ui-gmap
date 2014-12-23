@@ -1,0 +1,21 @@
+{
+  "name": "backbone-ui-gmap",
+  "version": "0.0.1",
+  "authors": [
+    "Van Carney <carney.van@gmail.com>"
+  ],
+  "main": "public/js/app.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jquery": "2.1.1",
+    "underscore": "1.7.0",
+    "backbone":"1.1.2",
+    "fun-utils":"git+https://github.com/vancarney/fun-utils",
+    "mt-geopoint":"git+https://github.com/vancarney/mt-geopoint",
+  },
+  "devDependencies": {
+
+  }
+
+}

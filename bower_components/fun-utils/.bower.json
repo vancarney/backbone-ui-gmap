@@ -1,0 +1,27 @@
+{
+  "name": "fun-utils",
+  "main": "lib/fun-utils.js",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt",
+    "./index.js",
+    "./.travis.yml",
+    "test",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "underscore": ">=1.6.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/vancarney/fun-utils",
+  "_release": "df540146f6",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "df540146f63ad04590c41a0f167bfa87d63ce7ed"
+  },
+  "_source": "https://github.com/vancarney/fun-utils.git",
+  "_target": "*",
+  "_originalSource": "git+https://github.com/vancarney/fun-utils"
+}
