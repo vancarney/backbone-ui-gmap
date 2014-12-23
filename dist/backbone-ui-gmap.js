@@ -10,7 +10,9 @@ _ = (typeof exports !== 'undefined' ? require('underscore') : global)._;
 
 Backbone = typeof exports !== 'undefined' ? require('backbone') : global.Backbone;
 
-global.bbui = bbui || {};
+if (global.bbui == null) {
+  global.bbui = {};
+}
 
 if (bbui.Util == null) {
   bbui.Util = {};

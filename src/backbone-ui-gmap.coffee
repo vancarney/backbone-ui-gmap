@@ -5,7 +5,7 @@ global = exports ? window
 _         = (unless typeof exports is 'undefined' then require 'underscore' else global)._
 Backbone  = unless typeof exports is 'undefined' then require 'backbone' else global.Backbone
 
-global.bbui = bbui || {}
+global.bbui ?= {}
 bbui.Util ?= {}
 bbui.Util.encodeLatLng ?= (ll)->
   if ll instanceof google.maps.LatLng then ll.toUrlValue 13 else null
