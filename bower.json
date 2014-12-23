@@ -13,6 +13,7 @@
     "backbone":"1.1.2",
     "fun-utils":"git+https://github.com/vancarney/fun-utils",
     "mt-geopoint":"git+https://github.com/vancarney/mt-geopoint",
+    "backbone-ui":"git+https://github.com/vancarney/backbone-ui"
   },
   "devDependencies": {
 
